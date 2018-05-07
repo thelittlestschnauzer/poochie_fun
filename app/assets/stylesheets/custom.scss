@@ -24,6 +24,9 @@ textarea {
   margin-bottom: 10px;
 }
 
+.btn-primary {
+  background-color: #4f7942;
+}
 /* typography */
 
 h1 {
@@ -38,3 +41,26 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  a {
+    color: #9d9d9d;
+    &:hover {
+      color: #222;
+    }
+  }
+  ul {
+    float: right;
+    list-style: none;
+    }
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
